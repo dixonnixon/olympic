@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dixonnixon/olympic#readme",
   "devDependencies": {
+    "eslint": "^5.9.0",
     "sqlite3": "^4.0.4"
   }
 }
