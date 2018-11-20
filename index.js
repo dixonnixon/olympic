@@ -7,5 +7,8 @@ let db = new sqlite3.Database(':memory:', (err) =>{
 });
 
 db.close((err) => {
-    return console.log(err.message);
+    if (err) {
+        return console.log(err.message);
+    }
+    console.log("connection closed");
 });
